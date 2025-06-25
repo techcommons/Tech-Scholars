@@ -1,0 +1,263 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:monospace;
+}
+
+body{
+    min-height:50vh;
+    font-family:"Josefin Sans", sans-serif;
+}
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5Fu3ARsRYd9V43OlZFviMFsMu1N4Aie5PA&s");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:100;
+}
+
+.navbar a{
+    position:relative;
+    font-size:25px;
+    font-weight:500px;
+    text-decoration:none;
+    margin-left:10px;
+    color:#677A99;
+    background-color:#ECEAEA;
+}
+
+.navbar a:before{
+    content:;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:2px;
+    background:#8A6B4C;
+    transition:.3s;
+}
+
+.navbar a:hover:before{
+    width:100%;
+}
+
+
+h1{
+    text-align:center;
+    font-size:55px;
+    margin-top:100px;
+    
+}
+
+h2{
+    text-align:center;
+    font-size:35px;
+}
+
+p{
+    text-align:center;
+    font-size:18px;
+}
+
+.img{
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:700px;
+    }
+}
+
+
+.chung{
+    h2{
+       text-align:center;
+        
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:300px;
+        border-style:groove;
+        border:15px;
+    }
+    p{
+        font-size:22px;
+        text-align:center;
+    }
+}
+.chungworks{
+    h2{
+        margin:40px;
+        text-align:left;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+    }
+    img{
+        margin:40px;
+        border-style:groove;
+        
+    }
+}
+
+.displacement{
+    img{
+        width:500px;
+        border-style:groove;
+        margin:40px;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+    }
+}
+
+.ali{
+    h2{
+       text-align:center;
+        
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:300px;
+      
+    }
+    p{
+        font-size:22px;
+        text-align:center;
+    }
+}
+.aliworks{
+    h2{
+        margin:40px;
+        text-align:left;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+        
+    }
+    img{
+        margin:40px;
+        border-style:groove;
+        width:500px;
+        
+    }
+}
+
+.chador{
+    img{
+        width:500px;
+        border-style:groove;
+        margin:40px;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+    }
+}
+
+.abad{
+     h2{
+       text-align:center;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:300px;
+      
+    }
+    p{
+        font-size:22px;
+        text-align:center;
+    }
+}
+.abadworks{
+    h2{
+        margin:40px;
+        text-align:left;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+    }
+    img{
+        margin-left:40px;
+        width:500px;
+    }
+}
+
+.water{
+    img{
+        width:500px;
+        margin:40px;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+    }
+}
+
+.caur{
+    h2{
+        text-align:center;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:300px;
+    }
+    p{
+        font-size:22px;
+        text-align:center;
+    }
+}
+.caurworks{
+    h2{
+        margin:40px;
+        text-align:left;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+    }
+    img{
+        margin:40px;
+        text-align:left;
+        width:400px;
+        
+    }
+}
+
+.time{
+    img{
+        width:400px;
+        margin:40px;
+    }
+    p{
+        font-size:20px;
+        margin:40px;
+        text-align:left;
+    }
+}
