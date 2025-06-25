@@ -1,0 +1,102 @@
+h1{
+    margin-top: -20px;
+    margin-left: 45px;
+}
+
+p{
+    margin: 0;
+}
+
+.granville{
+    padding: 0 48px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.element{
+    background-color: rgba(216,154,224, 0.57);
+    padding:35px 18px;
+    border-radius: 14px;
+    width: 365px;
+    transition: all 0.15s ease;
+    height: 170px;
+    margin-bottom: 10px;
+    border: solid;
+    border-color: rgba(216,154,224, 0);
+}
+
+.element-1{
+    margin-left: -5px;
+}
+
+.element:hover{
+    border: solid;
+    border-color: rgba(85,27,139, 0.6);
+    border-width: 5px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.logo{
+    width: 30px;
+    margin-right: 12px;
+    border-radius: 100px;
+}
+
+.name{
+    display: block;
+}
+
+.hyperlink{
+    text-decoration: underline;
+}
+
+.credit{
+    margin-top: 5px;
+}
+
+.link,
+.credit{
+    color: rgb(119, 92, 122);
+}
+
+.element2{
+    border: solid;
+    border-color: rgba(216,154,224, 0.57);
+    width: 365px;
+    color: rgba(216,154,224, 0.57);
+    padding: 35px 18px;
+    border-radius: 14px;
+    height: 500px;
+}
+
+.logo-src{
+    margin-top: 0;
+}
+
+.logo-big{
+    width: 329px;
+    border-radius: 450px;
+}
+
+.logo-big-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18.72px;
+    padding: 0 15.5px;
+}

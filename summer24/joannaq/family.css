@@ -1,0 +1,110 @@
+h1{
+    margin-top: -20px;
+    margin-left: 45px;
+}
+
+img{
+    width: 100px;
+}
+
+.granville{
+    padding-left: 40px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile{
+    background-color: rgba(216,154,224, 0.57);
+    width: 470px;
+    margin-right: 10px;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 18px;
+    align-items: center;
+    padding: 0 20px;
+    transition: all 0.15s ease;
+}
+
+.profile:hover{
+    width: 490px;
+    height: 290px;
+}
+
+.special{
+    background-color: transparent;
+}
+
+.button{
+    padding: 13px 25px;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Josefin Sans", serif;
+    font-size: 15px;
+    height: 16px;
+}
+
+.timeline{
+    background-color: rgba(216,154,224, 0.57);
+    color: rgb(254,245,238);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.timeline:hover{
+    font-size: 17px;
+    padding: 17px 29px;
+}
+
+.sources{
+    border: solid;
+    border-color: rgba(216,154,224, 0.57);
+    color: rgba(216,154,224, 0.57);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.sources:hover{
+    font-size: 17px;
+    padding: 17px 29px;
+}
+
+.img{
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+.credits{
+    color: rgb(119, 92, 122);
+    font-size: 14px;
+}

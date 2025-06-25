@@ -1,0 +1,341 @@
+/* Our default values set as CSS variables */
+/*:root {
+  --color-bg: ##fffcf7;
+  --color-text-main: #212121;
+  --color-text-header: #a56c22;
+  --color-primary: #212121;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+} FIX THE LEADING*/
+
+/* Our remix on glitch button 
+.btn--remix {
+  font-family: HK Grotesk;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  height: 2.75rem;
+  align-items: center;
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+  margin-left: auto;
+}
+.btn--remix img {
+  margin-right: 0.5rem;
+}
+.btn--remix:hover {
+  background-color: #D0FFF1;
+} */
+
+/******************************************************************************
+END Glitch hello-app default styles
+******************************************************************************/
+
+/* GENERAL */
+body {
+  background-color: #fdfeff;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 140px;
+  margin-bottom: 20%;
+}
+
+.bodd {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+/******************************************************************************/
+
+/*TYPOGRAPHY*/
+
+html {
+  font-size: 22px;
+}
+
+h1 {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 97%;
+  margin-bottom: 0px;
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #071531;
+  font-size: 1rem; /* 1 * 22px = 22px */
+}
+
+#teenprog {
+  margin-top: 0%;
+}
+
+h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #071531;
+  margin-bottom: -15px;
+  margin-top: 50px;
+  font-size: 1.5rem; /* 1.5 * 22px = 33px */
+}
+
+#headall {
+  font-weight: 500;
+  color: #0d4ea7;
+  margin-bottom: -20px;
+}
+
+#exploring {
+  margin-top: 20%;
+}
+
+#nyhs {
+  font-family: "Taviraj", serif;
+  color: #0d4ea7;
+  text-align: right;
+  margin-top: 0px;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  color: #071531;
+  font-size: 23px;
+  line-height: 120%;
+  font-size: 1rem; /* 1 * 22px = 22px */
+}
+
+a {
+  font-family: "Work Sans", sans-serif;
+  color: #0d4ea7;
+}
+
+a:hover {
+  color: #071531;
+}
+
+.Webdeslist a:visited {
+  color: #678cbf;
+}
+
+#explore {
+  font-weight: 400;
+  color: #0d4ea7;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 15%;
+}
+
+#firstline {
+  margin-top: 10%;
+}
+
+
+
+/*TYPOGRAPHY SIZE SCALING (for responsiveness)*/
+
+@media (max-width: 500px) { /*mobile*/
+  html {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 450;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+  
+  #nyhs {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  /*desktop*/
+  html {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 8rem; /* 8 * 22px = 176px */
+  }
+
+  p {
+    font-size: 1rem; /* 1 * 22px = 22px */
+  }
+
+  h2 {
+    font-size: 1rem; /* 1 * 22px = 22px */
+  }
+
+  h4 {
+    font-size: 1.5rem; /* 1.5 * 22px = 33px */
+  }
+}
+
+/******************************************************************************/
+/* NAV BAR */
+.navbar {
+  position: fixed;
+  margin-bottom: 40px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 3 !important;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  overflow: hidden;
+  background-color: #fdfeff;
+  border-bottom: 2px solid #071531;
+  text-align: right;
+  font-family: "work sans", sans-serif;
+  justify-content: space-around;
+  margin-top: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  display: block;
+  color: #071531;
+  padding: 14px 20px;
+  font-style: underline;
+  font-size: 0.8rem;
+}
+
+.navbar a:hover {
+  color: #0d4ea7;
+  font-style: normal;
+}
+
+@media (max-width: 500px) { /*mobile*/
+  html {
+    font-size: 18px;
+  }
+
+  .navbar li a {
+    font-size: 0.6rem;
+    padding: 6px 4px;
+  }
+  
+  .navbar ul{
+    padding-right: 10px
+  }
+}
+
+@media (min-width: 1000px) {
+  /*desktop*/
+  html {
+    font-size: 22px;
+  }
+
+  .navbar li a {
+    font-size: 0.8rem;
+  }
+}
+
+/******************************************************************************/
+/*web design page*/
+.Webdeslist {
+  line-height: 210%;
+}
+
+.Webdeslist b {
+  font-weight: 500;
+}
+
+.Webdeslist ul {
+  list-style-type: square;
+  color: #0d4ea7;
+}
+
+/******************************************************************************/
+/* Podcasting/ Podcasting sources Page */
+
+.podcastingsources h5 {
+  font-family: "Work Sans", sans-serif;
+  color: #071531;
+  font-size: 1rem;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+}
+
+.podcontent h5 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: #0d4ea7;
+  font-size: 1.2rem;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+
+
+.podcontent p {
+  margin-top: 5px;
+}
+
+img {
+  max-width: 50vw;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 500px) { /*mobile*/
+  img {
+    max-width: 80vw;
+    alignment: center;
+  }
+}
+
+#pods {
+  padding-top: 30px;
+}
+
+/* Game Design Page */
+.video {
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.gamedesign h5{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: #0d4ea7;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}

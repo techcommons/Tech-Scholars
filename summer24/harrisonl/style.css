@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Consistent font for body text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* General Paragraph Styling */
+p {
+    font-family: monospace; /* Specific font for paragraphs */
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0 0 20px; /* Space between paragraphs */
+    text-indent: 3em; /* Indentation for first line */
+}
+
+/* Heading Styles */
+h1, h2, h6 {
+    font-family: "Rubik", sans-serif; /* Consistent font for headings */
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em; /* Adjust size for subheadings */
+}
+
+h6 {
+    font-size: 0.85em; /* Smaller size for citation text */
+    color: #666; /* Light gray color for citation text */
+    text-align: center; /* Center align citation text */
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Intro Section Styles */
+.intro {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Image Styles */
+.images img {
+    width: 50%;
+    height: auto; /* Maintain aspect ratio */
+}

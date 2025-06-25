@@ -1,0 +1,91 @@
+h1{
+    color: RebeccaPurple;
+    font-family: "Kalnia Glaze", serif;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.introducing{
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.next{
+    margin-top: 26.8px;
+}
+
+.button{
+    padding: 13px 25px;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Josefin Sans", serif;
+    font-size: 15px;
+}
+
+.info{
+    background-color: rgba(216,154,224, 0.57);
+    color: rgb(254,245,238);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.info:hover{
+    font-size: 17px;
+    padding: 17px 29px;
+}
+
+.sources{
+    border: solid;
+    border-color: rgba(216,154,224, 0.57);
+    color: rgba(216,154,224, 0.57);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.sources:hover{
+    font-size: 17px;
+    padding: 17px 29px;
+}
+
+.granville{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 80px;
+}
+
+
+.caption{
+    position: absolute;
+    background-color: white;
+    height: 250px;
+    left: -350px;
+    bottom: 50px;
+    background-color: rgb(232,194,230);
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    padding-bottom: 40px;
+    transition: all 0.15s ease;
+}
+
+.caption:hover{
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.photo{
+    position: relative;
+}
+
+.portrait{
+    width: 380px;
+    border-radius: 200px;
+}
