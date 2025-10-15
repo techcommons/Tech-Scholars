@@ -62,6 +62,66 @@ Each link in a web design page is represented as an href attribute under the ```
 The links to the Tech Scholars' websites can be found in [CodeHS](codehs.com) (My Courses -> Cohort -> Roster -> Student -> Final Project -> Copy URL). Edit the name of the cohort directly above the ```<div class="Webdeslist">``` element. 
 
 ## Adding a Game Design Cohort
-The video demo for each game should be uploaded directly to the GitHub repository in the "gamedesign" directory or to an external video hosting platform.
+The video demo for each game should be uploaded directly to the GitHub repository in the "gamedesign" directory or to an external video hosting platform (e.g., YouTube). The demos from the Summer 2024 cohort are currently hosted on Glitch, which seems to be shutting down in the near future, so these demos may need to be relocated to an alternate site. You can edit the content for each game under the ```<div class="gamedesign">``` element (examples shown below) and the name of the cohort directly above it.
+```
+<h5>GAME NAME</h5>
+<p>by STUDENT NAMES</p>
+<video width="100%" height="100%" controls>
+  <source src="ROUTE TO VIDEO" type="video/mp4"> // e.g., src="demo1.mp4"
+Your browser does not support the video tag.
+</video>
+```
+OR
+```
+<h5>GAME NAME</h5>
+<p>by STUDENT NAMES</p>
+<iframe width="100%" height="650"
+  src="LINK TO VIDEO"> // e.g., src="https://www.youtube.com/embed/XXX">
+</iframe>
+```
+Placeholder images should be similarly uploaded to the GitHub repository or an alternate site of your choice. Example formats are shown below.
+```
+<h5>GAME NAME</h5>
+<p>by STUDENT NAMES</p>
+<img src="ROUTE TO IMAGE" alt="ALTERNATE TEXT"> // e.g., src="image1.jpg"
+```
+OR
+```
+<h5>GAME NAME</h5>
+<p>by STUDENT NAMES </p>
+<img src="LINK TO IMAGE" alt= "ALTERNATE TEXT"> // e.g., src="https://XXX"
+```
+If you are uploading the files directly to GitHub, you may choose to create a folder for each cohort to store them in. In this case, be sure to include the name of the directory in the route to the video or image (e.g., ```src="summer2026/image1"```).
 
 ## Adding a Podcasting Cohort
+The content for each podcast can be edited under the page's ```<div class="podcontent">``` elements. This includes the title, hosts, sources anchor, cover art, blurb, and audio recording for each podcast. The cover art and audio recordings must be uploaded to either the repository's "podcasting" directory or to an external platform, with the same guidelines from the Game Design section applying. The format for each podcast is shown below.
+```
+<div class="podcontent">
+  <h5>PODCAST TITLE</h5>
+  <p>Hosts: STUDENT NAMES | <a href="sources.html#ANCHOR">Sources</a></p>
+  <img src="ROUTE OR LINK TO COVER ART" alt="ALTERNATE TEXT">
+  <p>BLURB</p>
+  <audio controls>
+    <source src="ROUTE OR LINK TO AUDIO RECORDING" type="audio/TYPE">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+```
+Each podcast should be contained within its own ```<div class="podcontent">``` element so that it can be searched for independently from the other podcasts. The anchor in the sources link should uniquely match the anchor you give the podcast in the "sources.html" page. The sources for a new cohort can be added at the bottom of the existing "sources.html" page (but within the ```<div class="bodd">``` element) under its own heading. The correct format is shown below.
+```
+<h4 id="firstline">COHORT, <em>FEATURED EXHIBITION</em></h4>
+<p>COHORT BLURB</p>
+
+<h5 id="ANCHOR 1">PODCAST 1 TITLE</h5>
+<p>SOURCE 1<a href="LINK TO SOURCE 1">LINK TO SOURCE 1</a></p>
+<p>SOURCE 2<a href="LINK TO SOURCE 2">LINK TO SOURCE 2</a></p>
+// et cetera
+
+<h5 id="ANCHOR 2">PODCAST 2 TITLE</h5>
+<p>SOURCE 1<a href="LINK TO SOURCE 1">LINK TO SOURCE 1</a></p>
+<p>SOURCE 2<a href="LINK TO SOURCE 2">LINK TO SOURCE 2</a></p>
+// et cetera
+
+// et cetera
+```
+You can edit the title and blurb for the gallery page under the ```<div class="bodd">``` element in the appropriate ```<h4>``` and ```<p>``` tags.
