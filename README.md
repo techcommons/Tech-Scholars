@@ -59,10 +59,10 @@ Each link in a web design page is represented as an href attribute under the ```
   <a href="DESTINATION LINK" target="_blank"><b>STUDENT NAME</b> - WEBSITE TITLE</a>
 </li>
 ```
-The links to the Tech Scholars' websites can be found in [CodeHS](codehs.com) (My Courses -> Cohort -> Roster -> Student -> Final Project -> Copy URL). Edit the name of the cohort directly above the ```<div class="Webdeslist">``` element. 
+The links to the Tech Scholars' websites can be found in [CodeHS](codehs.com) (My Courses -> Cohort -> Roster -> Student -> Final Project -> Copy URL). You can edit the name of the cohort directly above the ```<div class="Webdeslist">``` element. 
 
 ## Adding a Game Design Cohort
-The video demo for each game should be uploaded directly to the GitHub repository in the "gamedesign" directory or to an external video hosting platform (e.g., YouTube). The demos from the Summer 2024 cohort are currently hosted on Glitch, which seems to be shutting down in the near future, so these demos may need to be relocated to an alternate site. You can edit the content for each game under the ```<div class="gamedesign">``` element (examples shown below) and the name of the cohort directly above it.
+The video demo for each game should be uploaded directly to the GitHub repository in the "gamedesign" directory or to an external video hosting platform (e.g., YouTube). The demos from the Summer 2024 cohort are currently hosted on Glitch, which will be shutting down in the near future, so these demos may need to be relocated to an alternate site. You can edit the content for each game under the ```<div class="gamedesign">``` element (examples shown below) and the name of the cohort directly above it.
 ```
 <h5>GAME NAME</h5>
 <p>by STUDENT NAMES</p>
@@ -79,7 +79,7 @@ OR
   src="LINK TO VIDEO"> // e.g., src="https://www.youtube.com/embed/XXX">
 </iframe>
 ```
-Placeholder images should be similarly uploaded to the GitHub repository or an alternate site of your choice. Example formats are shown below.
+Placeholder images should be similarly uploaded to the GitHub repository or an external site of your choice. Example formats are shown below.
 ```
 <h5>GAME NAME</h5>
 <p>by STUDENT NAMES</p>
@@ -107,7 +107,7 @@ The content for each podcast can be edited under the page's ```<div class="podco
   </audio>
 </div>
 ```
-Each podcast should be contained within its own ```<div class="podcontent">``` element so that it can be searched for independently from the other podcasts. The anchor in the sources link should be a word or phrase of your choosing that uniquely matches the anchor you assign podcast in the "sources.html" page. The sources for a new cohort can be added at the bottom of the existing "sources.html" page (but within the ```<div class="bodd">``` element) under its own heading. The correct format is shown below.
+Each podcast should be contained within its own ```<div class="podcontent">``` element so that it can be searched for independently from the other podcasts. The anchor in the sources link should be a word or phrase of your choosing that uniquely matches the anchor you assign the podcast in the "sources.html" page. The sources for a new cohort can be added at the bottom of the existing "sources.html" page (but within the ```<div class="bodd">``` element) under its own heading. The correct format is shown below.
 ```
 <h4 id="firstline">COHORT, <em>FEATURED EXHIBITION</em></h4>
 <p>COHORT BLURB</p>
