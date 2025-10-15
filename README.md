@@ -107,7 +107,7 @@ The content for each podcast can be edited under the page's ```<div class="podco
   </audio>
 </div>
 ```
-Each podcast should be contained within its own ```<div class="podcontent">``` element so that it can be searched for independently from the other podcasts. The anchor in the sources link should uniquely match the anchor you give the podcast in the "sources.html" page. The sources for a new cohort can be added at the bottom of the existing "sources.html" page (but within the ```<div class="bodd">``` element) under its own heading. The correct format is shown below.
+Each podcast should be contained within its own ```<div class="podcontent">``` element so that it can be searched for independently from the other podcasts. The anchor in the sources link should be a word or phrase of your choosing that uniquely matches the anchor you assign podcast in the "sources.html" page. The sources for a new cohort can be added at the bottom of the existing "sources.html" page (but within the ```<div class="bodd">``` element) under its own heading. The correct format is shown below.
 ```
 <h4 id="firstline">COHORT, <em>FEATURED EXHIBITION</em></h4>
 <p>COHORT BLURB</p>
