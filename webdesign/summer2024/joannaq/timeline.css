@@ -1,0 +1,255 @@
+h1{
+    margin-top: -20px;
+    margin-left: 45px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.button{
+    padding: 13px 25px;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Josefin Sans", serif;
+    font-size: 15px;
+    text-align: center
+}
+
+.home{
+    background-color: rgba(216,154,224, 0.57);
+    color: rgb(254,245,238);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.home:hover{
+    font-size: 17px;
+    padding: 17px 29px;
+}
+
+.sources{
+    border: solid;
+    border-color: rgba(216,154,224, 0.57);
+    color: rgba(216,154,224, 0.57);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.sources:hover{
+    font-size: 17px;
+    padding: 17px 29px;
+}
+
+.granville{
+    position: relative;
+}
+
+.time{
+    background-color: rgba(216,154,224, 0.57);
+    border-radius: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    position: absolute;
+}
+
+.time1{
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+    top: 110px;
+    left: 75px;
+    transition: all 0.15s ease;
+}
+
+.time1:hover{
+    height: 135px;
+    width: 135px;
+    left: 65px;
+}
+
+.time1 h2{
+    font-size: 24px;
+}
+
+.time1 p{
+    font-size: 16px;
+}
+
+
+/*--------*/
+.time2{
+    height: 70px;
+    width: 70px;
+    padding: 11.6px;
+    top: 260px;
+    left: 235px;
+    transition: all 0.15s ease
+}
+
+.time2:hover{
+    height: 80px;
+    width: 80px;
+    left: 220px;
+}
+
+.time2 h2{
+    font-size: 14px;
+}
+
+.time2 p{
+    font-size: 9.4px;
+}
+
+/*--------*/
+.time3{
+    height: 150px;
+    width: 150px;
+    padding: 23.333px;
+    top: 140px;
+    left: 335px;
+    transition: all 0.15s ease;
+}
+
+.time3:hover{
+    height: 170px;
+    width: 170px;
+    left: 330px;
+}
+
+.time3 h2{
+    font-size: 28px;
+}
+
+.time3 p{
+    font-size: 18.6px;
+}
+
+/*--------*/
+.time4{
+    height: 80px;
+    width: 80px;
+    padding: 13.333px;
+    top: 130px;
+    left: 545px;
+    transition: all 0.15s ease;
+}
+
+.time4:hover{
+    height: 90px;
+    width: 90px;
+    left: 537px;
+}
+
+.time4 h2{
+    font-size: 16px;
+}
+
+.time4 p{
+    font-size: 10.6666px;
+}
+
+/*--------*/
+.time5{
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+    top: 190px;
+    left: 635px;
+    transition: all 0.15s ease;
+}
+
+.time5:hover{
+    height: 135px;
+    width: 135px;
+    left: 633px;
+}
+
+.time5 h2{
+    font-size: 24px;
+}
+
+.time5 p{
+    font-size: 16px;
+}
+
+/*--------*/
+.time6{
+    height: 70px;
+    width: 70px;
+    padding: 11.6px;
+    top: 200px;
+    left: 815px;
+    transition: all 0.15s ease;
+}
+
+.time6:hover{
+    height: 80px;
+    width: 80px;
+}
+
+.time6 h2{
+    font-size: 14px;
+}
+
+.time6 p{
+    font-size: 9.4px;
+}
+
+/*--------*/
+.time7{
+    height: 90px;
+    width: 90px;
+    padding: 15px;
+    top: 160px;
+    left: 935px;
+    transition: all 0.15s ease;
+}
+
+.time7:hover{
+    height: 103px;
+    width: 103px;
+    left: 933px;
+}
+
+.time7 h2{
+    font-size: 18px;
+}
+
+.time7 p{
+    font-size: 12px;
+}
+
+/*--------*/
+.time8{
+    height: 140px;
+    width: 140px;
+    padding: 23.3333px;
+    top: 160px;
+    left: 1085px;
+    transition: all 0.15s ease;
+}
+
+.time8:hover{
+    height: 160px;
+    width: 160px;
+    left: 1075px;
+}
+
+.time8 h2{
+    font-size: 28px;
+}
+
+.time8 p{
+    font-size: 18.66666px;
+}

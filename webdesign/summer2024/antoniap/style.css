@@ -1,0 +1,64 @@
+/*
+selector {
+  property: value; 
+  }
+*/
+body{
+    background-color:#F3EEE2;
+}
+
+h1, h2, h3{
+    color:#F3EEE2;
+     font-family: "Josefin Sans", sans-serif;
+      background-color:#BD516C;
+}
+
+h1{
+    font-size:60px;
+    text-align:center;
+}
+
+h2, h3{
+    font-size:35px;
+    text-align:center;
+    color:#F3EEE2;
+}
+
+img{
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style:groove;
+    border-width:5px;
+    border-color:#5A6CA5;
+}
+
+a{
+    color:#5A6CA5;
+    font-family:"Josefin Sans", sans-serif;
+    font-size:30px;
+}
+
+ul{
+     list-style:none;
+     text-align:center;
+     color:#5A6CA5;
+     font-family: "Lato", sans-serif;
+    font-size:25px;
+  margin-top:0;
+  
+}
+
+p{
+    color:#5A6CA5;
+      font-family: "Lato", sans-serif;
+    font-size:25px;
+    font-weight:15px;
+    text-align:center;
+}
+
+p em{
+    color:#BD516C;
+}

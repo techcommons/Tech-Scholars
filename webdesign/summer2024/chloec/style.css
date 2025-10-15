@@ -1,0 +1,220 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.homeOnly{
+  background-image: url(homebg.jpg);
+  background-size: cover; /* Ensure the image covers the entire body */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background{
+  z-index: 3;
+  color: white;
+  margin-right: 60%;
+  padding-top: 80px;
+  padding-left: 10%;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.navbar {
+  background-color: #000000; /* Background color of the navbar */
+  padding: 10px 0; /* Padding around the navbar */
+  border: 2px solid white;
+}
+
+.navbar-nav {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.navbar-nav li {
+  margin: 0 15px; /* Space between the items */
+}
+
+.navbar-nav a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding around the links */
+  display: block; /* Make the links block-level elements */
+}
+
+.navbar-nav a:hover {
+  background-color: #ffffff; /* Background color on hover */
+  color: black;
+}
+
+.Monica{
+  color: white;
+  margin-top: 300px;
+  margin-left: 38%;
+  font-size: 100px;
+}
+
+.Mayer{
+  color: white;
+  margin-left: 40%;
+  font-size: 100px;
+  padding-bottom: 20px;
+}
+
+.homebg2{ /*bg image*/
+  background-image: url(newhomebg2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-size: cover;
+  pointer-events: none; 
+  z-index: 1;
+  bottom: 300px;
+}
+
+.body2{ /*ombre*/
+  position: absolute;
+      top: 700px;
+      left: 0;
+      width: 100%;
+      bottom: 1;
+      background: linear-gradient(to right, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 100%);
+      pointer-events: none; /* Ensure it does not block interaction with content */
+      z-index: 2; /* Place it above the background image*/
+}
+
+.homeText{ /*text*/
+  margin-right: 60%;
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-bottom: 30px;
+  z-index: 3;
+  color: white;
+  line-height: 1.6;
+}  
+
+/*sources*/
+.sources{
+    background-color: #f0ebe1;
+}
+
+.p1{
+            width: 100%;
+            display: block;
+            transition: opacity 0.3s ease;    
+}
+
+.p1Image{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    width:400px;
+    height:250px;
+}
+.p1Text{
+    position: absolute;
+            top: 100px;
+            left: 10px;
+            bottom:1px;
+            width: 30%;
+            height: 30%;
+            padding-top: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            text-align: center;
+}
+
+.p1:hover .p1Text{
+    opacity:1;
+    background: rgba(255, 192, 203, 0.8);
+    padding-top:40px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p2{
+            width: 100%;
+            display: block;
+            transition: opacity 0.3s ease;    
+}
+
+.p2Image{
+    position: absolute;
+    top: 110px;
+    left: 420px;
+    width:400px;
+    height:250px;
+}
+
+.p2Text{
+    position: absolute;
+            top: 110px;
+            left: 420px;
+            bottom:1px;
+            width: 30%;
+            height: 30%;
+            background: rgba(0, 0, 0, 0.5);
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            text-align: center;
+}
+
+.p2:hover .p2Text{
+    opacity:1;
+    background: rgba(255, 192, 203, 0.8);
+    padding-top:40px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 100px;
+    left: 420px;
+}
+
+.p3{
+            width: 100%;
+            display: block;
+            transition: opacity 0.3s ease;    
+}
+
+.p3Image{
+    width:400px;
+    height:250px;
+    padding-left: 830px;
+    padding-top: 40px;
+}
+
+.p3Text{
+    position: absolute;
+            top: 110px;
+            left:850px;
+            bottom:1px;
+            width: 30%;
+            height: 30%;
+            background: rgba(0, 0, 0, 0.5);
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            text-align: center;
+}
+
+.p3:hover .p3Text{
+    opacity:1;
+    background: rgba(255, 192, 203, 0.8);
+}
+
+.source{
+    background-color:#f7b2da;
+}
