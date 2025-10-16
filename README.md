@@ -67,7 +67,7 @@ The video demo for each game should be uploaded directly to the GitHub repositor
 <h5>GAME NAME</h5>
 <p>by STUDENT NAMES</p>
 <video width="100%" height="100%" controls>
-  <source src="ROUTE TO VIDEO" type="video/mp4"> // e.g., src="demo1.mp4"
+  <source src="ROUTE TO VIDEO" type="video/mp4"> <!-- e.g., src="demo1.mp4" -->
 Your browser does not support the video tag.
 </video>
 ```
@@ -76,20 +76,20 @@ OR
 <h5>GAME NAME</h5>
 <p>by STUDENT NAMES</p>
 <iframe width="100%" height="650"
-  src="LINK TO VIDEO"> // e.g., src="https://www.youtube.com/embed/XXX">
+  src="LINK TO VIDEO"> <!-- e.g., src="https://www.youtube.com/embed/XXX"> -->
 </iframe>
 ```
 Placeholder images should be similarly uploaded to the GitHub repository or an external site of your choice. Example formats are shown below.
 ```
 <h5>GAME NAME</h5>
 <p>by STUDENT NAMES</p>
-<img src="ROUTE TO IMAGE" alt="ALTERNATE TEXT"> // e.g., src="image1.jpg"
+<img src="ROUTE TO IMAGE" alt="ALTERNATE TEXT"> <!-- e.g., src="image1.jpg" -->
 ```
 OR
 ```
 <h5>GAME NAME</h5>
 <p>by STUDENT NAMES </p>
-<img src="LINK TO IMAGE" alt= "ALTERNATE TEXT"> // e.g., src="https://XXX"
+<img src="LINK TO IMAGE" alt= "ALTERNATE TEXT"> <!-- e.g., src="https://XXX" -->
 ```
 If you are uploading the files directly to GitHub, you may choose to create a folder for each cohort to store them in. In this case, be sure to include the name of the directory in the route to the video or image (e.g., ```src="summer2026/image1"```).
 
@@ -115,13 +115,13 @@ Each podcast should be contained within its own ```<div class="podcontent">``` e
 <h5 id="ANCHOR 1">PODCAST 1 TITLE</h5>
 <p>SOURCE 1<a href="LINK TO SOURCE 1">LINK TO SOURCE 1</a></p>
 <p>SOURCE 2<a href="LINK TO SOURCE 2">LINK TO SOURCE 2</a></p>
-// et cetera
+<!-- et cetera -->
 
 <h5 id="ANCHOR 2">PODCAST 2 TITLE</h5>
 <p>SOURCE 1<a href="LINK TO SOURCE 1">LINK TO SOURCE 1</a></p>
 <p>SOURCE 2<a href="LINK TO SOURCE 2">LINK TO SOURCE 2</a></p>
-// et cetera
+<!-- et cetera -->
 
-// et cetera
+<!-- et cetera -->
 ```
 You can edit the title and blurb for the gallery page under the ```<div class="bodd">``` element in the appropriate ```<h4>``` and ```<p>``` tags.
