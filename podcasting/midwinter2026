@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Podcasting</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Web Design</button>
+        <div class="dropdown-content">
+          <a href="../webdesign/summer2025.html">Summer 2025</a>
+          <a href="../webdesign/spring2025.html">Spring 2025</a>
+          <a href="../webdesign/winter2025.html">Winter 2025</a>
+          <a href="../webdesign/summer2024.html">Summer 2024</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Game Design</button>
+        <div class="dropdown-content">
+          <a href="../gamedesign/summer2024.html">Summer 2024</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Podcasting</button>
+        <div class="dropdown-content">
+          <a href="midwinter2026.html">Midwinter 2026</a>
+          <a href="summer2025.html">Summer 2025</a>
+          <a href="summer2024.html">Summer 2024</a>
+        </div>
+      </div>
+    </div>
+
+
+    <h4 id="headall">Tech Scholars | The New York Historical</h4>
+
+    <h1>PODCASTING</h1>
+
+    <div class="bodd">
+      <p id="firstline">
+        Teens collaborate with other teens to create a season of the NYH teen
+        podcast. They hone skills in history, art, and technology as they
+        research a topic; interview an expert; and write, record, and edit their
+        own podcast episode!
+      </p>
+
+      <h4> Midwinter 2026, <em>Through Fresh Eyes: The Gay Harlem Renaissance</em> </h4>
+
+      <p>
+        This midwinter recess, students explored the <em>The Gay Harlem Renaissance exhibition</em>. 
+        Each episode delves into the history art, artists, or themes featured in the exhibit.
+      </p>
+
+      <input type="text" id="searchInput" placeholder="Search...">
+
+      <div class="podcontent">
+        <h5> Blues Queens</h5> 
+        <p>Hosts: Akira, James, Isabelle, Joyce | <a href="sources.html#highnoonprotest">Sources</a></p>
+        <img src= "https://techcommons.github.io/nyhs-podcasts/High%20Noon%20Cover.jpg" 
+          alt= "monochromatic pop art featuring a singer"
+          />
+        <p>Hello listeners! In this episode of “Through Fresh Eyes" with the New York Historical, we explore the Blues Queens and their influence on contemporary music. Today, we will delve into the lives, art, and livelihoods of these historic figures, particularly Ma Rainey, an influential queer blues artist of the 1920s living during the Harlem Renaissance. She was one of a myriad of artists who expressed their queerness, and championed their self-expression through art. Today, you’ll hear music spanning from the 1920s in Harlem with "Prove it to Me Blues" by Ma Rainey, traveling all the way to the West Coast in Sylvester’s disco hit, “You Make Me Feel (Mighty Real)” of 1970’s San Francisco. <br>
+        <br>
+        This episode also focuses on the fact that many of these artists were queer, and how they used their art to show their identity. Delve into the clubs of the Harlem Renaissance via tunes from “Prove it to Me Blues” and “You Make Me Feel (Mighty Real)” to feel the essence of what made Harlem icons so distinctive. Let’s cut to the chase and get to some tunes! 
+        </p>
+        <audio
+          src= "https://techcommons.github.io/nyhs-podcasts/Final%20High%20Noon%20Pod%20August%202025.mp3"
+          controls
+          >,</audio>
+      </div>
+      <div class="podcontent">
+         <h5> Untold Herstory </h5>
+        <p>Hosts: Gyuree, Nicole, Amanda, Cici | <a href="sources.html#carnegie">Sources</a></p>
+        <img src= "https://techcommons.github.io/nyhs-podcasts/Paul%20Robeson%20Cover.png" 
+          alt= "A black and white photograph of Angelina Welde Grimké"
+          />
+        <p> Welcome to “Untold Herstory,” an episode of “Through Fresh Eyes,” part of The New York Historical’s Tech Scholars podcast! This episode centers on the life and works of Angelina Welde Grimké. We are all interested in studying and learning more about unknown writers in the context of the Gay Harlem Renaissance, an era where LGBTQ+ African American arts, philosophy, and literature grew, developed, and flourished. <br>
+       <br>
+        We’re a group of high schoolers who love poetry, and when we came across Grimké during our search for lesser known queer female poets, we immediately knew she was the one. Her family history, her life story, and the raw emotion in her writing completely pulled us in. We were especially fascinated by her identities as a likely queer African American woman during a time where these topics were only beginning to be accepted, and how that shaped her playwriting and poetry. <br>
+       <br>
+       In this episode, we get into the civic activism that runs deep in her family lineage, how her identity and experiences may have shaped her voice, and a close look at two of her poems, “El Beso” and “The Black Finger.” We also talk about her lasting legacy and why she deserves way more recognition than she gets as an influential figure of the Harlem Renaissance. We hope you enjoy it!
+       </p>
+        <audio
+          src= "https://techcommons.github.io/nyhs-podcasts/Paul%20Robeson(Final3).mp3"
+          controls
+          >,</audio>       
+      </div>
+      <div class="podcontent">
+        <h5>Rent Parties</h5>
+        <p>Hosts: Andi, Adamary, Emma, Sophia, and John | <a href="sources.html#salt">Sources</a></p>
+        <img src= "https://techcommons.github.io/nyhs-podcasts/Salt%20of%20the%20Earth%20Cover.jpg" 
+          alt= "A collage of invitations to A Social Party with an outline of the Manhattan skyline on the bottom" 
+          />
+        <p>	The Harlem Renaissance is best defined by a period of artistic flowering within Black communities from the 1920s to the 1930s. It is perhaps, just as importantly, a period of vibrant social connection--an experience captured by the many Rent Parties that took place in apartments of African American tenants. Besides being a creative means to help afford rent, Rent Parties also served as spaces for artistic cultivation and expression for queer black communities. As intersectionality was a crucial theme of art and music of the Harlem Renaissance, Rent Parties were a unique place where writers and performers could celebrate their identities.<br>
+        <br>
+        This episode, inspired by the New York Historical’s The Gay Harlem Renaissance exhibit, explores how intersectionality played an integral part in the cultural contributions of the Harlem Renaissance, through a phenomenon we know and love: parties. Here, we discuss the cultural influences of Rent Parties, from the development of jazz music to the rise of famous performers such as Ma Rainey, and Gladys Bentley. By exploring this overlooked aspect of the time period, this episode seeks to bring to light how impactful these celebrations were for members of the community, and how they brought about the traditions that transformed the arts as we know it today.
+        </p>
+        <audio
+          src= "https://techcommons.github.io/nyhs-podcasts/Salt%20of%20the%20Earth%20Podcast%20FINAL%20Upload.mp3"
+          controls
+          >,</audio>   
+      </div>
+      <div class="podcontent">
+        <h5> The Dark Tower </h5>
+        <p>Hosts: Miley G., Juliette C., Sile Z., Thalia K., Roni P. | <a href="sources.html#canvas">Sources</a></p>
+        <img src= "https://techcommons.github.io/nyhs-podcasts/McCarthy%20Press%20Cover.jpg" 
+          alt= "Four windows against a checkered floor" 
+          />
+        <p>Have you ever felt like an outsider in a room full of influential people? Welcome to Through Fresh Eyes, where we explore the vibrant queer presence of the Harlem Renaissance. During a time when many were excluded from mainstream society, queer artists and thinkers found belonging in unexpected spaces like The Dark Tower. The Dark Tower was a salon on 136th Street owned by A’Lelia Walker. Although she did not identify as queer herself, she intentionally created a space where queer creatives were welcomed and celebrated. Within its walls, artists gathered to share poetry, music, visual art, sculpture, and bold new ideas. It became more than just a building. It was a cultural hub where identity, artistry, and resistance came together. In a world that often silenced them, this community built connection through creativity. Conversations sparked movements and performances carried layered meaning. In this episode, we step inside The Dark Tower to experience the energy of a space that helped shape queer artistic expression during the Harlem Renaissance and left a legacy that still resonates today.
+        </p>
+        <audio
+          src= "https://techcommons.github.io/nyhs-podcasts/TechScholars2025_McCarthyPress_PodcastFinal03.mp3"
+          controls
+          >,</audio>  
+      </div>
+      <div class="podcontent">  
+        <h5> Painting the Way North </h5>
+        <p>Hosts:  Aylin, Alanna, Afran, Milo, Pallavi | <a href="sources.html#swinging">Sources</a></p>
+        <img src= "https://techcommons.github.io/nyhs-podcasts/Hazel%20Scott%20Cover.png" 
+          alt= "Art piece of people heading out of a door to a sign that says New York" 
+          />
+          <p> One of the greatest influences and causes of the Harlem Renaissance was the Great Migration. The Renaissance included several remarkable artists, and Jacob Lawrence was amongst them. Lawrence played a key role in the modernist and civil rights movement; his style was inspired by the Renaissance. Lawrence used shape, line, and color to convey his messages about current events, from the Great Migration to World War II. He used his artwork to tell the stories of the Black American community in Harlem. Towards the middle of his career, he painted The Migration Series, which concentrated on the Great Migration. Despite the diverse perspectives on how his work was interpreted, his message of community was still clear. In this podcast, we will be discussing two specific works from this collection and how they emphasize the changes in the community that came with the migration and their effect on the Harlem Renaissance. 
+          </p>
+          <audio
+          src= "https://techcommons.github.io/nyhs-podcasts/Hazel%20Scott%20FINAL%20Podcast%20(2).mp3"
+          controls
+          >,</audio>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('searchInput');
+        const sections = document.querySelectorAll('.podcontent');
+        searchInput.addEventListener('keyup', function() {
+          const searchTerm = searchInput.value.toLowerCase();
+          sections.forEach(section => {
+            const sectionContent = section.textContent.toLowerCase();
+            if (sectionContent.includes(searchTerm)) {
+              section.style.display = 'block'; // Show the section
+            } 
+            else {
+              section.style.display = 'none'; // Hide the section
+            }
+          });
+        });
+      });
+    </script>
+
+  </body>
+</html>
