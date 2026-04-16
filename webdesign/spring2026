@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Design</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Web Design</button>
+        <div class="dropdown-content">
+          <a href="spring2026.html">Spring 2026</a>
+          <a href="summer2025.html">Summer 2025</a>
+          <a href="spring2025.html">Spring 2025</a>
+          <a href="winter2025.html">Winter 2025</a>
+          <a href="summer2024.html">Summer 2024</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Game Design</button>
+        <div class="dropdown-content">
+          <a href="../gamedesign/summer2024.html">Summer 2024</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Podcasting</button>
+        <div class="dropdown-content">
+          <a href="../podcasting/midwinter2026.html">Midwinter 2026</a>
+          <a href="../podcasting/summer2025.html">Summer 2025</a>
+          <a href="../podcasting/summer2024.html">Summer 2024</a>
+        </div>
+      </div>
+    </div>
+
+
+    <h4 id="headall">Tech Scholars | The New York Historical</h4>
+
+    <h1>WEB DESIGN</h1>
+    <div class="bodd">
+      <p id="firstline">
+        Teens explore how women across the spectrum of race, class, and
+        sexuality exercised power and effected change. They become digital
+        changemakers and create their own websites to share powerful stories
+        about women in history.
+      </p>
+      
+      <h4>Spring 2026</h4>
+      
+       <div class="Webdeslist">
+        <ul>
+          <li>
+            <a
+              href="https://19129230-s.codehs.io/index.html" target="_blank" 
+            >
+              <b> Amaya A.</b> - Dolley Madison
+            </a>
+          </li>
+          <li>
+            <a
+               href="https://19129302-s.codehs.io/index.html" target="_blank"
+               >
+            <b>Meriam A.</b> - Home Economics: How Women Used Gender Roles to Enter Scientific Fields
+
+            </a>
+          </li>
+          <li>
+            <a href="https://19129389-s.codehs.io/index.html" target="_blank">
+              <b>Maria B.</b> - Evolution of Female Athletic Attire
+            </a>
+          </li>
+          <li>
+            <a href="https://19129461-s.codehs.io/index.html" target="_blank">
+            <b>Roslin C.</b> - Fashion in Workplace Environments: Blessing or Curse?
+            </a>
+          </li>
+        
+          <li>
+            <a href="https://19129635-s.codehs.io/index.html" target="_blank">
+            <b>Jocelyn C.</b> - Female Inventions in the 1800s
+            </a>
+          </li>
+          
+          <li>
+            <a href= "https://19129684-s.codehs.io/index.html" target="_blank">
+            <b>Mina C.</b> - She-Conomy
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19125973-s.codehs.io/index.html" target="_blank">
+              <b> Cherie C.</b> - Flappers in the Media: Anna May Wong
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130050-s.codehs.io/index.html" target="_blank">
+              <b>Johnny G.</b> - The Role of American Women in WWII and the Rise of Feminism
+            </a>
+          </li>
+          
+          <li>
+            <a href= "https://19130083-s.codehs.io/index.html" target="_blank">
+              <b>Adamary G.</b> - The Role of Women Sharecroppers During the Economic Collapse of the 30's
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130130-s.codehs.io/index.html" target="_blank">
+              <b>Zhiyan H.</b> - To What Extent did Women Shape Politics in the 19th Century?
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130210-s.codehs.io/index.html" target="_blank">
+              <b>Winnie H.</b> - Anne Bradstreet & Her Poetry
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130272-s.codehs.io/index.html" target="_blank">
+              <b>Labiba I.</b> - How did Woman Banking Helped Empower Woman?
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130362-s.codehs.io/index.html" target="_blank">
+              <b>Ariana M.</b> - The Enduring Legacy of Women in Environmental Stewardship
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130434-s.codehs.io/index.html" target="_blank">
+              <b>Munira R.</b> - More Than Just an Author: Zora Neale Hurston
+            </a>
+          </li>
+          
+          <li>
+            <a href= "https://19130472-s.codehs.io/index.html" target="_blank">
+              <b>Nathaniel R.</b> - The Birth of Barbie and Her Affect on Women
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130530-s.codehs.io/index.html" target="_blank">
+              <b>Natalia R.</b> - Billie Jean King and "The Battle of Sexes"
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130574-s.codehs.io/index.html" target="_blank">
+              <b>Alexandra S.</b> - How Women Use Fashon to Challenge Political/Socail Norms
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130611-s.codehs.io/index.html" target="_blank">
+              <b>Kayla St. R.</b> - Edmonia Lewis: Activism Through Art
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130670-s.codehs.io/index.html" target="_blank">
+              <b>Afran T.</b> - Abortion and Women's Medicine in 1800's America: Ann Trow Lohman, or "Madame Restell"
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130704-s.codehs.io/index.html" target="_blank">
+              <b>Robert T.</b> - Women's Political Role in the American Revolution
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130745-s.codehs.io/index.html" target="_blank">
+              <b>Catherine T.</b> - Nursing in WWI and WWII
+
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130802-s.codehs.io/index.html" target="_blank">
+              <b>Arian T.</b> - Need Beautiful Curves: The Advanced Projects of Zaha Hadid
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130832-s.codehs.io/index.html" target="_blank">
+              <b>Gowthami V.</b> - Women in Sports
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130947-s.codehs.io/index.html" target="_blank">
+              <b>Kera W.</b> - The Fight for Reproductive Healthcare
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://19130981-s.codehs.io/index.html" target="_blank">
+              <b>Ethan W.</b> - The Issues with Patents and Women in Colonial America
+            </a>
+          </li>
+
+                    <li>
+            <a href="https://19131032-s.codehs.io/index.html" target="_blank">
+              <b>Claire Y.</b> - Anne Hutchinson
+            </a>
+          </li>
+    
+         </ul>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>
