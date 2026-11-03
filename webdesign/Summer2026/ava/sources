@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Sources</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+    <!--ADD YOUR SOURCES IN CHICAGO STYLE HERE-->
+<nav> 
+   <a href= "index.html">Home</a>
+  <a href= "info.html">Info</a>
+  <a href= "sources.html">Sources</a>
+</nav>
+   
+<h1> Sources</h1>
+<ul> 
+<li> Chung, Soojin. "History of Korean Immigration to America, from 1903 to Present." Boston Korean Diaspora Project, Boston University. Accessed July 21, 2026. https://sites.bu.edu/koreandiaspora/issues/history-of-korean-immigration-to-america-from-1903-to-present/.</li>
+<li>Lee, Mary Paik. Quiet Odyssey: A Pioneer Korean Woman in America. Edited by Sucheng Chan. Seattle: University of Washington Press, 1990. https://uwapress.uw.edu/book/9780295746722/quiet-odyssey/ </li>
+<li> New-York Historical Society. "Paik Kuang Sun, aka Mary Paik Lee." Women & the American Story. Accessed July 21, 2026. https://wams.nyhistory.org/life-story/life-story-paik-kuang-sun-aka-mary-paik-lee/</li>
+<li> Park, Alyssa. "Early 20th Century Korean American Womanhood." Marie and Mary: Early 20th Century Korean American Womanhood, 2024. https://mackseyjournal.scholasticahq.com/article/132336-marie-and-mary-early-20th-century-korean-american-womanhood</li>
+<li> Wong, Deborah. "Mary Paik Lee." Asian American Riverside, 2006. https://asianamericanriverside.ucr.edu/NotableAsianAmericans/MaryPaikLee.html</li>
+
+</ul>
+ </body>
+</html>
