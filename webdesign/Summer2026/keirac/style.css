@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+NZ+Guides&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yuyu+Short&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playwrite+NZ+Guides&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yuyu+Short&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playwrite+NZ+Guides&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yuyu+Short&display=swap');
+
+/*
+selector {
+  property: value; 
+  }
+*/
+
+body {
+    margin: 6%; 
+    background-color: #EBE7E4;
+    text-align: center;
+}
+
+.title-info {
+    background-color: #FFF9F5;
+    border:5px solid #D6D0CE;
+}
+h1, h2 {
+    color: #52432F;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h4 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+p {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size:20px;
+}
+
+a {
+    color:#636363;
+    font-size: 11px;
+    margin-top: 5px;     
+    margin-bottom: 5px; 
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+img {
+    width: 80%;
+    border:5px solid white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #807874;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center
+ 
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
