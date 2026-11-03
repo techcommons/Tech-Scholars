@@ -1,0 +1,22 @@
+body {
+    background-color: #BDEFFF;
+    text-align: center;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: #black;
+.portrait {
+    width: 200;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+body {
+    font-size: 20px;
+}
