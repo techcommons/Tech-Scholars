@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Paik Kaung Sun:A Korean Immigrant Story</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+    <!--ADD YOUR HOMEPAGE CONTENT HERE IN THE BODY SECTION-->
+ <nav>
+  <a href= "index.html">Home </a>
+  <a href= "info.html">Info </a>
+  <a href= "sources.html">Sources </a>
+  </nav>
+   <h1><b> Paik Kaung Sun: A Korean Immigrant Story </b></h1>
+   <h2><i>"Such strong, quiet courage in ordinary people in the face of danger is really something to admire and remember always." </i></h2>
+   
+ <div class="intro">
+   <p>In the early 1900s, the first wave of Korean immigrants began arriving in the United States in search of new opportunities while facing economic hardship, cultural barriers, and discrimination. Their journeys were shaped by the challenges of adapting to a new society while preserving their identities. The experiences of early Korean immigrants like Paik Kaung Sun reveal a complex history of resilience, struggle, and belonging within America.</p>
+
+<img src= https://upload.wikimedia.org/wikipedia/commons/8/84/Mary_Paik_Lee_family.png alt= Paik Kaung Sun with her husband H.M. Lee and her first-born son Henry > 
+
+</div>
+
+<p>Mary Paik Lee with her husband H.M. Lee and their first-born son Henry, 1926. Via <a href= "https://en.wikipedia.org/wiki/Mary_Paik_Lee">Wikimedia Commons</a> Accessed July 23,2026
+</p>
+
+
+<h2> <i> "It is women like her who get things started in spite of opposition, and who accomplish what seem like impossibilities."</i></h2>
+ </body>
+</html>
