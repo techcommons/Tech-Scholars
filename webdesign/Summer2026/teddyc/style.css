@@ -1,0 +1,174 @@
+/*
+img
+*/
+
+}
+
+.homeimg,.clara,.rose,.artifact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.homeimg img,.clara img,.rose img,.artifact img{
+    width:60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+
+
+/*
+text
+*/
+
+h1{
+    text-align:center;
+    color:black;
+      font-family: "Stack Sans Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size:400%;
+    
+}
+
+
+.homeh1 {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('https://www.mcny.org/sites/default/files/objects/4_Garment14-609L.jpg');
+    
+    width: 100vw;
+    padding-top: 150px;  
+    padding-bottom: 150px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    color: #ffffff;
+}
+
+
+.homeh1 h1{
+    color:white;
+}
+
+p{
+    text-align: center;
+    color: black;
+      font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+        font-size:200%;
+}
+
+h2{
+    text-align: center;
+    color: black;
+      font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+    font-size:300%;
+    background-color:lightgrey;
+}
+
+
+.subtext{
+    font-size:50%;
+}
+
+/*
+nav bar
+*/
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333333;
+  color:white;
+  border:;
+}
+
+ul li {
+  float: left;
+  font-family: "Stack Sans Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:200%;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+#logo{
+    float: right;
+    padding:14px 16px;
+}
+
+body{
+    background-color: white;
+    margin:0;
+}
+
+/*
+marquee
+*/
+
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background: #f0f0f0;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scrollMarquee 30s linear infinite;
+}
+
+.marquee-track span {
+  padding: 0 2rem;
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+    font-size:250%;
+}
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
