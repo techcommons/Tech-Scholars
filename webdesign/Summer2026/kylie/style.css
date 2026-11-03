@@ -1,0 +1,68 @@
+/*
+selector {
+  property: value; 
+  }
+*/
+h1{
+    color:snow;
+}
+a{
+    color:snow;
+}
+body{
+    background-color:maroon;
+    color:snow;
+}
+p{
+    font:sans-serif;
+    font-size:20px;
+}
+.imageone{
+ 
+    float: left;
+    border:solid darkred 20px;
+}
+
+.artifact{
+    float: right;
+    
+}
+.paragraphs{
+    float:middle;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:Maroon;
+    font-family:arial;
+}
+
+ul li{
+    float:left;
+}
+
+ul li a{
+    display:block;
+    color:snow;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+ul li a:hover{
+    background-color:#A61616;
+}
+
+.dress{
+    float:left;
+    
+}
+.shoes{
+    float:left;
+}
+.cassions{
+    color:black;
+}
