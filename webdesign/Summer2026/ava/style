@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:opsz,wght@6..96,643&family=Cinzel+Decorative:wght@400;700&family=IM+Fell+Double+Pica:ital@0;1&family=Playfair+Display:ital@0;1&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Quintessential&display=swap');
+/*
+selector {
+  property: value; 
+  }
+*/
+body{ 
+background-color:#F7F4EE;
+} 
+h1{ 
+ font-size: 300%;
+  color:#1D3557;
+  text-align: center;
+  font-family: "IM Fell Double Pica", serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+} 
+
+h2 {
+  color:#4f6f82;
+  text-align: center;
+}
+
+p{ 
+  font-family: "Poltawski Nowy", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #042747;
+  font-size:110%;
+  text-align: center;
+} 
+
+img{ 
+    width: 20%;
+}
+
+nav {
+  background-color: #1D3557;
+  padding: 15px;
+  text-align:center;
+}
+
+nav a {
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  color: #F7F4EE;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+  font-family: Georgia, serif;
+}
+nav a:hover {
+  color: #e9c46a;
+  transform: scale(1.2);
+}
+
+.intro {
+   display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 950px;
+  margin: 40px auto;
+}
+
+.intro p {
+  flex: 1;
+  font-size: 185%;
+  margin: 0;
+}
+
+.intro img {
+  width: 38%;
+  transform: translateX(200px)
+}
+
+.para1 p{
+    font-size:150%;
+}
+
+.book-cover{
+    display: block;
+  margin: 20px auto;
+  width:25%;
+ }
+ 
+ ul{
+   font-size:150%;
+}
+
+li{
+    color:#042747;
+    margin-bottom:20px;
+}
+ 
+ .caption{
+     font-size:105%;
+}
+ 
+.para2 p{
+    font-size:150%;
+}
+
+a{ 
+    color:#565c70;
+} 
+
+.intro,
+.para1,
+.para2,
+.book-cover,
+h1,h2,ul {
+  animation: fadeIn 1.5s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
