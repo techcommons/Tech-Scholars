@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Paik Kaung Sun Info</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+    <!--ADD YOUR WRITING AND IMAGES HERE-->
+  <nav>
+  <a href= "index.html">Home</a>
+  <a href= "info.html">Info</a>
+  <a href= "sources.html">Sources</a>
+  </nav>
+  <h1> Paik Kaung Sun</h1>
+  <h2><i> "Although girls and women were supposed to be soft and obedient, they should also learn to think like men and make correct judgments."</i></h2>
+
+<div class="para1">
+   
+  <p> Paik Kaung Sun was born in 1900 in Pyongyang, Korea, and fled to Hawaii after the Japanese occupied Korea. She and her family landed on the sugarcane plantations of Oahu on January 13,1903, before finally settling in California. She was one of the ten thousand Korean immigrants who would arrive during this period. Rather than experiencing opportunities associated with the American Dream, her childhood was dominated by economic hardship and racial remarks. At Washington Irving Elementary School, classmates often reduced her unique Korean identity into racist stereotypes. As one of the few Korean immigrant women living in the United States in the early 1900s, Lee offered a firsthand perspective that historians often overlooked. Decades later, she would preserve these experiences and  transform her personal memories into a story that challenged the perception of Asian immigrants living in the United States.</p>
+</div>
+  
+<img class="book-cover"
+  src="https://pictures.abebooks.com/isbn/9780295969466-us.jpg"
+ alt= "Mary Paik Lee's autobiography Quiet Odyssey: A Pioneer Woman in America">
+
+ 
+
+ <p class="caption">Mary Paik Lee, Front cover of Quiet Odyssey: A Pioneer Korean Woman in America,1990.Via <a href= "https://www.abebooks.com/9780295969466/Quiet-odyssey-pioneer-Korean-woman-0295969466/plp"> Abe Books</a> Accessed July 23,2026</p>
+<div class="para2">
+    <p>
