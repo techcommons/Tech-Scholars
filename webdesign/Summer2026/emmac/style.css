@@ -1,0 +1,245 @@
+/*
+selector {
+  property: value; 
+  }
+*/
+
+/*padding clears an invisible area around the content 
+(inside box). border goes around padding.
+margin=clear area outside border and edge of window. 
+Look online for differen't border styles*/
+
+h1{
+  font-family: "Cinzel", serif;
+  font-weight: 20px;
+  font-style: normal;
+  color: #2D4531;
+  font-size:50px;
+  margin:20px;
+  background-color: #F0FCF2;
+  margin:0px;
+  padding:20px;
+}
+
+/*list-style-type none removes the bullet and 
+the others remove the indent
+overflow:hidden prevents list items from going outside the list
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D3E8D8;
+}
+/*below makes it so items go next to eachother*/
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #2D4531;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*below makes it so when you hover it changes color*/
+ul li a:hover {
+  background-color: #9EBAA2;
+}
+
+body{
+    background-color: white;
+    margin:0px;
+    padding:0px;
+}
+/*setting body margin + padding to 0 lets nav bar and heading touch the sides*/
+/*background-color: #F0FCF2;*/
+
+h2{
+    margin-left:50px;
+    margin-top: 45px;
+    margin-bottom:45px;
+    font-size: 36px;
+}
+
+
+.container {
+  display: flex;
+  margin-left: 50px;
+  margin-right:50px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.container figcaption{
+    font-size:14px;
+    text-align:left;
+}
+
+figure {
+  flex: 1;
+  text-align: center;
+  margin:10px;
+}
+
+figure img {
+  width: 200px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-family: "Assistant", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.words{
+  margin-left: 50px;
+  margin-right:50px;
+  font-size:20px;
+}
+
+
+.intro{
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+.intro p{
+  font-size:20px; 
+}
+.intro h3{
+ font-size: 30px;
+}
+
+p{
+ line-height: 1.5;
+}
+
+.source{
+    font-size:20px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+a{
+  font-family: "Assistant", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2{
+  font-family: "Assistant", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+  color: black;
+}
+/*#35523B*/
+
+h3{
+  font-family: "Assistant", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;  
+}
+
+p{
+  font-family: "Assistant", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.more{
+     font-size:20px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+.squares {
+  display: flex;
+  gap: 20px;
+  margin-right: 50px;
+  margin-left:50px;
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #2D4531;
+  border-radius: 3px;
+  background-color: #D3E8D8;
+}
+
+h4{
+  font-family: "Assistant", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size:26px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.box p{
+    font-size:18px;
+}
+
+h4 a{
+    color:black;
+}
+
+.chart {
+  display: flex;
+  margin-left: 0px;
+  margin-right:0px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.chart figcaption{
+    font-size:14px;
+    text-align:left;
+}
+
+figure {
+  flex: 1;
+  text-align: center;
+  margin:10px;
+}
+
+.chart figure img {
+  width: 600px;
+  margin-left:30px;
+}
+
+.chart figcaption p{
+  margin-top: 8px;
+  font-family: "Assistant", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size:18px;
+  margin-left:30px;
+}
+
+
+.home{
+    margin:25px;
+}
+
+.Mabel{
+    margin:25px;
+}
+
+.explore{
+    margin:25px;
+}
+
+.final{
+    margin:25px;
+}
+
+figcaption p{
+    line-height: 1;
+}
+
+.
