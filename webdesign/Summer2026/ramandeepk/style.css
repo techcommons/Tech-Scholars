@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+/*
+selector {
+  property: value; 
+  }
+*/
+
+body{
+    background-color:#77B5B0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Playwrite NZ Guides", cursive;
+    font-weight: 500;
+    font-style: normal;
+    border: 5px dotted black;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    font-size: 80px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-container a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.nav-container a:hover {
+    background-color: #E0B748;
+    color: white;
+    transform: scale(1.05);
+}           
+
+.image img{
+ display: block;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+h2{
+    font-size: 50px;
+    text-align:center;
+}
+    
+p{
+    font-size:30px;
+    color:white;
+}
+    
+h3{
+    font-size:45px;
+    color:#E0B748;
+    text-align:center;
+    border:3px solid #BFB6A6;
+}
+
+h4{
+    font-size:40px;
+    color:white;
+    text-align:left;
+    background-color:#FA9A87;
+    border: 3px solid white;
+    display: block;
+    width: fit-content;
+}
+    
+h5 {
+    font-size: 40px;
+    color: black;
+    text-align: right;
+    background-color: #FA9A87;
+    padding: 5px;
+    border: 3px solid white;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.woman-image img {
+    display: block;
+    width: 50%;
+    margin:30px auto 0;
+    border: 5px solid black;
+}
+
+h6 {
+    font-size:100px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    margin:10px 0;
+}
+
+.teapot img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+.caption {
+    font-size:20px;
+    color:black;
+    text-align:center;
+}
+    
+ol {
+    color: white;
+    font-size: 25px;
+    line-height:2;
+    padding-left:35px;
+}
+li::marker {
+    color: black
+}
+    
+    .woman-image {
+    transition: 0.3s;
+}
+
+.woman-image:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+  .image {
+    transition: 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+  .teapot {
+    transition: 0.3s;
+}
+
+.teapot:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+.nav-container a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h1 {
+    border-radius: 10px;
+}
+p {
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #BFB6A6;
+}
+.image img,
+.woman-image img,
+.teapot img {
+    border-radius: 10px;
+}
+h1 {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.nav-container a {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
