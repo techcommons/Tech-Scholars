@@ -1,0 +1,151 @@
+/*
+selector {
+  property: value; 
+  }
+*/
+body {
+    background-color: white;
+}
+
+
+
+#header {
+      font-size: 75px;
+        text-align: center;
+        margin-top:30px;
+        font-weight:bold;
+        color:#6b4f3f;
+      
+}
+#lovepoem {
+  font-size: 22px;
+  text-align: center;
+  background-color: #fff;
+  border-left: 6px solid #6b4f3f;
+  width: 60%;
+  margin: 30px auto;
+  padding: 25px;
+  line-height: 1.7;
+  border-radius: 10px;
+  list-style:none;
+}
+
+    
+}
+
+
+#home-image-left img {
+  width: 40%;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 3px solid #d4c4b5;
+}
+
+
+#home-image-right img {
+  width: 40%;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 3px solid #d4c4b5;
+}
+
+
+#home-image-left,
+#home-image-right {
+  margin-bottom: 40px;
+}
+
+body {
+  font-family: Times ;
+  background-color: #faf7f2;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background-color: #e8dcc8;
+  padding: 15px;
+  justify-content: center;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: black;
+}
+
+#infoheader {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#infoheader h1 {
+  font-size: 40px;
+  color: #6b4f3f;
+}
+
+
+.information-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.information-images img {
+  width: 220px;
+  border-radius: 10px;
+  border: 3px solid #d4c4b5;
+}
+
+
+#info-text1,
+#info-text2,
+#info-text3 {
+  text-align: left;
+  background-color: #fff;
+  border-left: 6px solid #6b4f3f;
+  width: 70%;
+  margin: 25px auto;
+  padding: 25px;
+  font-size: 18px;
+  line-height: 1.6;
+  border-radius: 8px;
+}
+#sourceheader{
+    text-align:center;
+    font-size:30px;
+    
+}
+
+#source1,
+#source2,
+#source3{
+     text-align: center;
+  background-color: #fff;
+  border-left: 6px solid #6b4f3f;
+  width: 70%;
+  margin: 25px auto;
+  padding: 25px;
+  font-size: 18px;
+  line-height: 1.6;
+  border-radius: 8px;
+}
+}
