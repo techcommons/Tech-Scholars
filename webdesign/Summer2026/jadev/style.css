@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Passion+One:wght@400;700;900&family=Rubik+Dirt&display=swap');
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: "Rubik Dirt", system-ui;
+  font-style: normal;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: hotpink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: black;
+  color:lightpink;
+}
+
+h1,h2 {
+ font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+body {
+    background-color: lightgray
+}
+
+h4 {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.12em;
+  font-size:20px;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+  letter-spacing: 0.08em;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: hotpink;
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+  letter-spacing: 0.08em;
+  float:right;
+  border-radius:8px;
+}
+
+.button:hover {
+  background-color: black; 
+  font-color:lightpink;
+  border-radius:8px;
+}
+
+
+
+
+.artist-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #e6e6e6;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.image-section {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.image-section img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.image-section figcaption {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.text-section {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .artist-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
