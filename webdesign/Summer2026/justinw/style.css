@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0f12; /* Deep library archive navy/black */
+  color: #d1d5db;
+  font-family: 'Georgia', 'Times New Roman', serif; /* Classic academic typeface */
+  line-height: 1.7;
+}
+
+/* --- Header & Navigation --- */
+.site-header {
+  background-color: #161a22;
+  border-bottom: 1px solid #2a303c;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.archive-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffd700;
+  font-family: system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  font-family: system-ui, sans-serif;
+}
+
+nav ul li a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ffffff;
+  background-color: #242b38;
+}
+
+/* --- Layout Container --- */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* --- Metadata Header Card --- */
+.archive-metadata-card {
+  background-color: #161a22;
+  border: 1px solid #2a303c;
+  border-top: 3px solid #ffd700;
+  border-radius: 6px;
+  padding: 30px;
+  margin-bottom: 35px;
+}
+
+.meta-tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #242b38;
+  color: #ffd700;
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+  border: 1px solid #3b4454;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  color: #f3f4f6;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 1.25;
+}
+
+.meta-details {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  border-top: 1px solid #2a303c;
+  padding-top: 15px;
+}
+
+.meta-details strong {
+  color: #d1d5db;
+}
+
+/* --- Sections & Cards --- */
+.archive-section {
+  margin-bottom: 40px;
+}
+
+.section-label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ffd700;
+  margin-bottom: 15px;
+}
+
+.card {
+  background-color: #161a22;
+  border: 1px solid #2a303c;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.bpone p {
+  margin-bottom: 15px;
+}
+
+.bpone p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Side-by-Side Grid for Section 2 --- */
+.feature-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 25px;
+  align-items: start;
+}
+
+.bptwoandthree h3 {
+  color: #ffd700;
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.bptwoandthree p {
+  margin-bottom: 15px;
+}
+
+/* --- Exhibit Image Styling --- */
+.exhibit-image-card {
+  background-color: #161a22;
+  border: 1px solid #2a303c;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+#headerimage img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+#headerimagetext {
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/* --- Action Button Bar --- */
+.archive-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.action-btn {
+  background-color: #242b38;
+  color: #ffd700;
+  border: 1px solid #3b4454;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-family: system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.action-btn:hover {
+  background-color: #ffd700;
+  color: #0d0f12;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 800px) {
+  .feature-layout {
+    grid-template-columns: 1fr;
+  }
