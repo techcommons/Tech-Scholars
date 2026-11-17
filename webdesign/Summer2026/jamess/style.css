@@ -1,0 +1,32 @@
+/*
+selector {
+  property: value; 
+  }
+*/
+
+body{
+    Background-color:gold;
+}
+
+h1{
+    color:purple;
+    font-family: serif;
+}
+
+p{
+    color:purple;
+}
+
+
+h1{border-style: outset;
+    border-color:goldenrod;
+}
+p{border-style: outset;
+    border-color:goldenrod;
+}
+
+img{
+    display:block;
+    margin:auto
+    width:50%;
+}
