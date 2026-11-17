@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Special+Gothic:wght@400..700&display=swap');
+
+* {box-sizing:border-box}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Special Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+h1
+{
+    padding: 5px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    background-color: #e8389c;
+    display: inline-block;
+}
+
+
+figcaption
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.header
+{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    height: 38vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;         
+    background-image: url("headerimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.headercaption
+{
+    color: white;
+    font-size: 4cqw;
+    padding: 15px;
+    margin: 0;
+}
+
+.pagetopic
+{
+    text-align: center;
+}
+
+.slideshow-container
+{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides
+{
+    display: none;
+}
+
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #e8389c;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.caption
+{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 35px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(232, 56, 156, 0.4);
+}
+
+.numbertext
+{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #8c5373;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #e8389c;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.info-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+    font-size: 27px;
+}
+
+.writespace
+{
+    flex: 1;
+}
+
+.imgspace
+{
+    flex: 1;
+}
+
+.infoimg
+{
+    width: 100%;
+    display: block;
+}
+
+
+.homeimg
+{
+    width:100%;
+    border: 8px solid #e8389c;
+}
+
+.navbar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 15px;
+    overflow: hidden;
+    justify-content: center;
+    border-bottom: 4px dotted #e8389c;
+}
+
+.navbar li 
+{
+    float: left;
+}
+
+.navbar li a
+{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    color: #e8389c;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 480;
+    border-right: 2px solid #e8389c;
+
+}
+
+.navbar li a:hover
+{
+    background-image: linear-gradient(to right, #e8389c, white);
+    color: white;
+}
+
+.sources
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+.sources li
+{
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+.quote
+{
+    text-align: center;
+    font-style: italic;
+    color: #e8389c;
+}
+
+
+#tagline
+{
+    padding: 5px 30px;
+    font-size: 25px;
+}
