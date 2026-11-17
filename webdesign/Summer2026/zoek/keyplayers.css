@@ -1,0 +1,235 @@
+body{
+    font-family:arial;
+    margin:0;
+    background-color:black;
+}
+a{
+    text-decoration: none;
+    color:#c7f801;
+}
+p{
+    font-size:150%;
+}
+
+.heading{
+    height:50%;
+    color:#ff009c;
+    margin-top:150px;
+    margin-bottom:150px;
+    
+}
+@keyframes fadein {
+	 0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.headingText{
+    text-align:center;
+    font-size:350%;
+    position: relative;
+    letter-spacing: -10px;
+    animation-name: fadein;
+	animation-duration:5s;
+}
+
+.button1 a:hover{
+    text-decoration: none;
+    color:#2640fe;
+}
+
+.button2 a:hover{
+    text-decoration: none;
+    color:#ff009c;
+}
+
+.button3 a:hover{
+    text-decoration: none;
+    color:#ff6400;
+}
+
+.navBar{
+    background-color:#c7f801;
+    height:20%;
+    position: sticky;
+    top:0;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #2640fe;
+  line-height:0;
+  color: black; 
+  border: 2px solid #2640fe;
+  margin-left:20px;
+}
+
+.button1:hover {
+  background-color:#c7f801;
+  color: white;
+}
+
+
+.button2 {
+  background-color:#ff009c; 
+  line-height:0;
+  color:black; 
+  border: 2px solid #ff009c;
+  margin:15px;
+}
+
+.button2:hover {
+  background-color:#c7f801;
+  color: white;
+}
+
+.button3 {
+  background-color: #ff6400;
+  line-height:0;
+  color: black; 
+  border: 2px solid #ff6400;
+}
+
+.button3:hover {
+  background-color: #c7f801;
+  color: white;
+}
+
+.artistSection {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+.artistCard {
+    display:flex;
+    align-items:center;
+    padding-left:20px;
+    padding-right:80px;
+    padding-top:20px;
+    padding-bottom:20px;
+    gap:20px;
+}
+
+.artistCard img {
+    width:150px;
+    height:auto;
+    border: 5px solid black;
+}
+
+.cardText h2 {
+    line-height: 0.9;
+    margin: 0;
+    font-size: 250%;
+    align:left;
+    letter-spacing: -3px;
+    color: #c7f801;
+}
+
+
+.cardText a {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pink {
+    background-color: #ff009c;
+}
+.pink h2 {
+    color: #c7f801;
+}
+.buttonG a{
+    text-decoration: none;
+    color:#ff009c;
+}
+.buttonG a:hover{
+    text-decoration: none;
+    color:#c7f801;
+   
+}
+.buttonG{
+    background-color: #c7f801;
+    color: #ff009c;
+    line-height:0;
+}
+.buttonG:hover {
+  background-color:#ff009c;
+  color: #c7f801;
+  border:3px solid #c7f801;
+}
+
+.blue {
+    background-color: #2640fe;
+}
+.blue h2 {
+    color: #ff009c;
+}
+.blue a {
+    background-color: #ff009c;
+    color: #2640fe;
+}
+
+.lime {
+    background-color: #c7f801;
+}
+.lime h2 {
+    color: #2640fe;
+}
+.buttonGG a{
+    text-decoration: none;
+    color:#c7f801;
+}
+.buttonGG a:hover{
+    text-decoration: none;
+    color:#2640fe;
+   
+}
+.buttonGG{
+    background-color: #2640fe;
+    color: #2640fe;
+    line-height:0;
+}
+.buttonGG:hover {
+  background-color:#c7f801;
+  color: #c7f801;
+  border:3px solid #2640fe;
+}
+
+.orange {
+    background-color: #ff6400;
+}
+.orange h2 {
+    color: #c7f801;
+}
+.buttonJ a{
+    text-decoration: none;
+    color:#c7f801;
+}
+.buttonJ a:hover{
+    text-decoration: none;
+    color:#2640fe;
+   
+}
+.buttonJ{
+    background-color: #2640fe;
+    color: #2640fe;
+    line-height:0;
+}
+.buttonJ:hover {
+  background-color:#c7f801;
+  color: #c7f801;
+  border:3px solid #2640fe;
+}
